@@ -1,0 +1,7 @@
+D:\C#\OrcaleUpdateHHID\CommonClass\bin\x86\Debug\CommonClass.dll
+D:\C#\OrcaleUpdateHHID\CommonClass\bin\x86\Debug\CommonClass.pdb
+D:\C#\OrcaleUpdateHHID\CommonClass\bin\x86\Debug\Aspose.Cells.dll
+D:\C#\OrcaleUpdateHHID\CommonClass\obj\x86\Debug\CommonClass.csprojResolveAssemblyReference.cache
+D:\C#\OrcaleUpdateHHID\CommonClass\obj\x86\Debug\CommonClass.dll
+D:\C#\OrcaleUpdateHHID\CommonClass\obj\x86\Debug\CommonClass.pdb
+D:\C#\OrcaleUpdateHHID\CommonClass\bin\x86\Debug\DMSkin.dll

@@ -1,0 +1,24 @@
+c:\users\actouy\documents\visual studio 2013\Projects\UpdateToOracle\CommonClass\bin\Debug\CommonClass.dll
+c:\users\actouy\documents\visual studio 2013\Projects\UpdateToOracle\CommonClass\bin\Debug\CommonClass.pdb
+c:\users\actouy\documents\visual studio 2013\Projects\UpdateToOracle\CommonClass\obj\Debug\CommonClass.csprojResolveAssemblyReference.cache
+c:\users\actouy\documents\visual studio 2013\Projects\UpdateToOracle\CommonClass\obj\Debug\CommonClass.dll
+c:\users\actouy\documents\visual studio 2013\Projects\UpdateToOracle\CommonClass\obj\Debug\CommonClass.pdb
+D:\C#\UpdateToOracle\CommonClass\bin\Debug\CommonClass.dll
+D:\C#\UpdateToOracle\CommonClass\bin\Debug\CommonClass.pdb
+D:\C#\UpdateToOracle\CommonClass\obj\Debug\CommonClass.csprojResolveAssemblyReference.cache
+D:\C#\UpdateToOracle\CommonClass\obj\Debug\CommonClass.dll
+D:\C#\UpdateToOracle\CommonClass\obj\Debug\CommonClass.pdb
+D:\C#\UpdateToOracle\CommonClass\bin\Debug\Aspose.Cells.dll
+D:\C#\OrclUpdatePrj\CommonClass\bin\Debug\CommonClass.dll
+D:\C#\OrclUpdatePrj\CommonClass\bin\Debug\CommonClass.pdb
+D:\C#\OrclUpdatePrj\CommonClass\bin\Debug\Aspose.Cells.dll
+D:\C#\OrclUpdatePrj\CommonClass\obj\Debug\CommonClass.csprojResolveAssemblyReference.cache
+D:\C#\OrclUpdatePrj\CommonClass\obj\Debug\CommonClass.dll
+D:\C#\OrclUpdatePrj\CommonClass\obj\Debug\CommonClass.pdb
+D:\C#\OrcaleUpdateHHID\CommonClass\bin\Debug\CommonClass.dll
+D:\C#\OrcaleUpdateHHID\CommonClass\bin\Debug\CommonClass.pdb
+D:\C#\OrcaleUpdateHHID\CommonClass\bin\Debug\Aspose.Cells.dll
+D:\C#\OrcaleUpdateHHID\CommonClass\bin\Debug\Oracle.DataAccess.dll
+D:\C#\OrcaleUpdateHHID\CommonClass\obj\Debug\CommonClass.csprojResolveAssemblyReference.cache
+D:\C#\OrcaleUpdateHHID\CommonClass\obj\Debug\CommonClass.dll
+D:\C#\OrcaleUpdateHHID\CommonClass\obj\Debug\CommonClass.pdb

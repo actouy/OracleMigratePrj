@@ -1,0 +1,12 @@
+D:\C#\OracleMigratePrj\OracleMigratePrj\bin\Debug\OracleMigratePrj.exe.config
+D:\C#\OracleMigratePrj\OracleMigratePrj\bin\Debug\OracleMigratePrj.exe
+D:\C#\OracleMigratePrj\OracleMigratePrj\bin\Debug\OracleMigratePrj.pdb
+D:\C#\OracleMigratePrj\OracleMigratePrj\bin\Debug\CommonClass.dll
+D:\C#\OracleMigratePrj\OracleMigratePrj\bin\Debug\Aspose.Cells.dll
+D:\C#\OracleMigratePrj\OracleMigratePrj\bin\Debug\CommonClass.pdb
+D:\C#\OracleMigratePrj\OracleMigratePrj\obj\Debug\OracleMigratePrj.csprojResolveAssemblyReference.cache
+D:\C#\OracleMigratePrj\OracleMigratePrj\obj\Debug\OracleMigratePrj.MainForm.resources
+D:\C#\OracleMigratePrj\OracleMigratePrj\obj\Debug\OracleMigratePrj.Properties.Resources.resources
+D:\C#\OracleMigratePrj\OracleMigratePrj\obj\Debug\OracleMigratePrj.csproj.GenerateResource.Cache
+D:\C#\OracleMigratePrj\OracleMigratePrj\obj\Debug\OracleMigratePrj.exe
+D:\C#\OracleMigratePrj\OracleMigratePrj\obj\Debug\OracleMigratePrj.pdb
