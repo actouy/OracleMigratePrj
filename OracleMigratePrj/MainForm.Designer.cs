@@ -29,29 +29,35 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
             this.superTabControl1 = new DevComponents.DotNetBar.SuperTabControl();
             this.superTabControlPanel11 = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.superTabItem4 = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabControl4 = new DevComponents.DotNetBar.SuperTabControl();
+            this.superTabControlPanel13 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.collapsibleSplitContainer8 = new DevComponents.DotNetBar.Controls.CollapsibleSplitContainer();
+            this.buttonXQueryData = new DevComponents.DotNetBar.ButtonX();
+            this.labelX21 = new DevComponents.DotNetBar.LabelX();
+            this.textBoxXExcelPath = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.buttonXSelectExcelPath = new DevComponents.DotNetBar.ButtonX();
+            this.collapsibleSplitContainer9 = new DevComponents.DotNetBar.Controls.CollapsibleSplitContainer();
+            this.collapsibleSplitContainer10 = new DevComponents.DotNetBar.Controls.CollapsibleSplitContainer();
+            this.listBoxAdvListExcelFile = new DevComponents.DotNetBar.ListBoxAdv();
+            this.listBoxAdvExcelSheets = new DevComponents.DotNetBar.ListBoxAdv();
+            this.collapsibleSplitContainer11 = new DevComponents.DotNetBar.Controls.CollapsibleSplitContainer();
+            this.listBoxAdv6 = new DevComponents.DotNetBar.ListBoxAdv();
+            this.dataGridViewXExcelSheet = new DevComponents.DotNetBar.Controls.DataGridViewX();
+            this.superTabItem5 = new DevComponents.DotNetBar.SuperTabItem();
             this.superTabItemApp = new DevComponents.DotNetBar.SuperTabItem();
-            this.superTabControlPanel3 = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.buttonX9 = new DevComponents.DotNetBar.ButtonX();
-            this.textBoxX2 = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.btmGetID = new DevComponents.DotNetBar.ButtonX();
-            this.btnClear = new DevComponents.DotNetBar.ButtonX();
-            this.labelX3 = new DevComponents.DotNetBar.LabelX();
-            this.cmbxIMDBName = new DevComponents.DotNetBar.Controls.ComboBoxEx();
-            this.MoveDatasuperTabItem = new DevComponents.DotNetBar.SuperTabItem();
             this.superTabControlPanel4 = new DevComponents.DotNetBar.SuperTabControlPanel();
             this.superTabControl3 = new DevComponents.DotNetBar.SuperTabControl();
             this.superTabControlPanel10 = new DevComponents.DotNetBar.SuperTabControlPanel();
@@ -78,6 +84,14 @@
             this.txbOracleSID = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.superTabItem2 = new DevComponents.DotNetBar.SuperTabItem();
             this.ConfigsuperTabItem = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabControlPanel3 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.buttonX9 = new DevComponents.DotNetBar.ButtonX();
+            this.textBoxX2 = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.btmGetID = new DevComponents.DotNetBar.ButtonX();
+            this.btnClear = new DevComponents.DotNetBar.ButtonX();
+            this.labelX3 = new DevComponents.DotNetBar.LabelX();
+            this.cmbxIMDBName = new DevComponents.DotNetBar.Controls.ComboBoxEx();
+            this.MoveDatasuperTabItem = new DevComponents.DotNetBar.SuperTabItem();
             this.superTabControlPanel1 = new DevComponents.DotNetBar.SuperTabControlPanel();
             this.superTabControl2 = new DevComponents.DotNetBar.SuperTabControl();
             this.superTabControlPanel5 = new DevComponents.DotNetBar.SuperTabControlPanel();
@@ -151,31 +165,37 @@
             this.labelX11 = new DevComponents.DotNetBar.LabelX();
             this.comboBoxExpTables = new DevComponents.DotNetBar.Controls.ComboBoxEx();
             this.ExpsuperTabItem = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabItem4 = new DevComponents.DotNetBar.SuperTabItem();
             this.ExcelsuperTabItem = new DevComponents.DotNetBar.SuperTabItem();
-            this.superTabControl4 = new DevComponents.DotNetBar.SuperTabControl();
-            this.superTabControlPanel13 = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.collapsibleSplitContainer8 = new DevComponents.DotNetBar.Controls.CollapsibleSplitContainer();
-            this.labelX21 = new DevComponents.DotNetBar.LabelX();
-            this.textBoxXExcelPath = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.buttonXSelectExcelPath = new DevComponents.DotNetBar.ButtonX();
-            this.collapsibleSplitContainer9 = new DevComponents.DotNetBar.Controls.CollapsibleSplitContainer();
-            this.collapsibleSplitContainer10 = new DevComponents.DotNetBar.Controls.CollapsibleSplitContainer();
-            this.listBoxAdvListExcelFile = new DevComponents.DotNetBar.ListBoxAdv();
-            this.listBoxAdvExcelSheets = new DevComponents.DotNetBar.ListBoxAdv();
-            this.collapsibleSplitContainer11 = new DevComponents.DotNetBar.Controls.CollapsibleSplitContainer();
-            this.listBoxAdv6 = new DevComponents.DotNetBar.ListBoxAdv();
-            this.dataGridViewXExcelSheet = new DevComponents.DotNetBar.Controls.DataGridViewX();
-            this.superTabItem5 = new DevComponents.DotNetBar.SuperTabItem();
-            this.buttonXQueryData = new DevComponents.DotNetBar.ButtonX();
             ((System.ComponentModel.ISupportInitialize)(this.superTabControl1)).BeginInit();
             this.superTabControl1.SuspendLayout();
             this.superTabControlPanel11.SuspendLayout();
-            this.superTabControlPanel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.superTabControl4)).BeginInit();
+            this.superTabControl4.SuspendLayout();
+            this.superTabControlPanel13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.collapsibleSplitContainer8)).BeginInit();
+            this.collapsibleSplitContainer8.Panel1.SuspendLayout();
+            this.collapsibleSplitContainer8.Panel2.SuspendLayout();
+            this.collapsibleSplitContainer8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.collapsibleSplitContainer9)).BeginInit();
+            this.collapsibleSplitContainer9.Panel1.SuspendLayout();
+            this.collapsibleSplitContainer9.Panel2.SuspendLayout();
+            this.collapsibleSplitContainer9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.collapsibleSplitContainer10)).BeginInit();
+            this.collapsibleSplitContainer10.Panel1.SuspendLayout();
+            this.collapsibleSplitContainer10.Panel2.SuspendLayout();
+            this.collapsibleSplitContainer10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.collapsibleSplitContainer11)).BeginInit();
+            this.collapsibleSplitContainer11.Panel1.SuspendLayout();
+            this.collapsibleSplitContainer11.Panel2.SuspendLayout();
+            this.collapsibleSplitContainer11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewXExcelSheet)).BeginInit();
             this.superTabControlPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.superTabControl3)).BeginInit();
             this.superTabControl3.SuspendLayout();
             this.superTabControlPanel10.SuspendLayout();
             this.superTabControlPanel9.SuspendLayout();
+            this.superTabControlPanel3.SuspendLayout();
             this.superTabControlPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.superTabControl2)).BeginInit();
             this.superTabControl2.SuspendLayout();
@@ -219,26 +239,6 @@
             this.superTabControlPanel8.SuspendLayout();
             this.superTabControlPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewX2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.superTabControl4)).BeginInit();
-            this.superTabControl4.SuspendLayout();
-            this.superTabControlPanel13.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.collapsibleSplitContainer8)).BeginInit();
-            this.collapsibleSplitContainer8.Panel1.SuspendLayout();
-            this.collapsibleSplitContainer8.Panel2.SuspendLayout();
-            this.collapsibleSplitContainer8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.collapsibleSplitContainer9)).BeginInit();
-            this.collapsibleSplitContainer9.Panel1.SuspendLayout();
-            this.collapsibleSplitContainer9.Panel2.SuspendLayout();
-            this.collapsibleSplitContainer9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.collapsibleSplitContainer10)).BeginInit();
-            this.collapsibleSplitContainer10.Panel1.SuspendLayout();
-            this.collapsibleSplitContainer10.Panel2.SuspendLayout();
-            this.collapsibleSplitContainer10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.collapsibleSplitContainer11)).BeginInit();
-            this.collapsibleSplitContainer11.Panel1.SuspendLayout();
-            this.collapsibleSplitContainer11.Panel2.SuspendLayout();
-            this.collapsibleSplitContainer11.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewXExcelSheet)).BeginInit();
             this.SuspendLayout();
             // 
             // styleManager1
@@ -302,11 +302,282 @@
             this.superTabControlPanel11.TabIndex = 0;
             this.superTabControlPanel11.TabItem = this.superTabItemApp;
             // 
-            // superTabItem4
+            // superTabControl4
             // 
-            this.superTabItem4.GlobalItem = false;
-            this.superTabItem4.Name = "superTabItem4";
-            this.superTabItem4.Text = "Excel数据导入";
+            this.superTabControl4.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.superTabControl4.ControlBox.CloseBox.Name = "";
+            // 
+            // 
+            // 
+            this.superTabControl4.ControlBox.MenuBox.Name = "";
+            this.superTabControl4.ControlBox.Name = "";
+            this.superTabControl4.ControlBox.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.superTabControl4.ControlBox.MenuBox,
+            this.superTabControl4.ControlBox.CloseBox});
+            this.superTabControl4.Controls.Add(this.superTabControlPanel13);
+            this.superTabControl4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControl4.ForeColor = System.Drawing.Color.Black;
+            this.superTabControl4.Location = new System.Drawing.Point(0, 0);
+            this.superTabControl4.Name = "superTabControl4";
+            this.superTabControl4.ReorderTabsEnabled = true;
+            this.superTabControl4.SelectedTabFont = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold);
+            this.superTabControl4.SelectedTabIndex = 0;
+            this.superTabControl4.Size = new System.Drawing.Size(896, 518);
+            this.superTabControl4.TabFont = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.superTabControl4.TabIndex = 3;
+            this.superTabControl4.Tabs.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.superTabItem5});
+            this.superTabControl4.Text = "superTabControl4";
+            // 
+            // superTabControlPanel13
+            // 
+            this.superTabControlPanel13.Controls.Add(this.collapsibleSplitContainer8);
+            this.superTabControlPanel13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel13.Location = new System.Drawing.Point(0, 28);
+            this.superTabControlPanel13.Name = "superTabControlPanel13";
+            this.superTabControlPanel13.Size = new System.Drawing.Size(896, 490);
+            this.superTabControlPanel13.TabIndex = 1;
+            this.superTabControlPanel13.TabItem = this.superTabItem5;
+            // 
+            // collapsibleSplitContainer8
+            // 
+            this.collapsibleSplitContainer8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.collapsibleSplitContainer8.Location = new System.Drawing.Point(0, 0);
+            this.collapsibleSplitContainer8.Name = "collapsibleSplitContainer8";
+            this.collapsibleSplitContainer8.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // collapsibleSplitContainer8.Panel1
+            // 
+            this.collapsibleSplitContainer8.Panel1.BackColor = System.Drawing.Color.Transparent;
+            this.collapsibleSplitContainer8.Panel1.Controls.Add(this.buttonXQueryData);
+            this.collapsibleSplitContainer8.Panel1.Controls.Add(this.labelX21);
+            this.collapsibleSplitContainer8.Panel1.Controls.Add(this.textBoxXExcelPath);
+            this.collapsibleSplitContainer8.Panel1.Controls.Add(this.buttonXSelectExcelPath);
+            // 
+            // collapsibleSplitContainer8.Panel2
+            // 
+            this.collapsibleSplitContainer8.Panel2.Controls.Add(this.collapsibleSplitContainer9);
+            this.collapsibleSplitContainer8.Size = new System.Drawing.Size(896, 490);
+            this.collapsibleSplitContainer8.SplitterDistance = 127;
+            this.collapsibleSplitContainer8.SplitterWidth = 20;
+            this.collapsibleSplitContainer8.TabIndex = 1;
+            // 
+            // buttonXQueryData
+            // 
+            this.buttonXQueryData.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonXQueryData.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonXQueryData.Enabled = false;
+            this.buttonXQueryData.Location = new System.Drawing.Point(621, 47);
+            this.buttonXQueryData.Name = "buttonXQueryData";
+            this.buttonXQueryData.Size = new System.Drawing.Size(109, 23);
+            this.buttonXQueryData.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonXQueryData.TabIndex = 6;
+            this.buttonXQueryData.Text = "查询数据存在";
+            this.buttonXQueryData.Click += new System.EventHandler(this.buttonXQueryData_Click);
+            // 
+            // labelX21
+            // 
+            this.labelX21.AutoSize = true;
+            // 
+            // 
+            // 
+            this.labelX21.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX21.Location = new System.Drawing.Point(22, 20);
+            this.labelX21.Name = "labelX21";
+            this.labelX21.Size = new System.Drawing.Size(155, 18);
+            this.labelX21.TabIndex = 5;
+            this.labelX21.Text = "选择导入数据文件的文件夹";
+            // 
+            // textBoxXExcelPath
+            // 
+            this.textBoxXExcelPath.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.textBoxXExcelPath.Border.Class = "TextBoxBorder";
+            this.textBoxXExcelPath.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.textBoxXExcelPath.DisabledBackColor = System.Drawing.Color.White;
+            this.textBoxXExcelPath.ForeColor = System.Drawing.Color.Black;
+            this.textBoxXExcelPath.Location = new System.Drawing.Point(22, 47);
+            this.textBoxXExcelPath.Name = "textBoxXExcelPath";
+            this.textBoxXExcelPath.PreventEnterBeep = true;
+            this.textBoxXExcelPath.Size = new System.Drawing.Size(300, 21);
+            this.textBoxXExcelPath.TabIndex = 4;
+            // 
+            // buttonXSelectExcelPath
+            // 
+            this.buttonXSelectExcelPath.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonXSelectExcelPath.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonXSelectExcelPath.Location = new System.Drawing.Point(356, 47);
+            this.buttonXSelectExcelPath.Name = "buttonXSelectExcelPath";
+            this.buttonXSelectExcelPath.Size = new System.Drawing.Size(109, 23);
+            this.buttonXSelectExcelPath.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonXSelectExcelPath.TabIndex = 3;
+            this.buttonXSelectExcelPath.Text = "浏览文件夹";
+            this.buttonXSelectExcelPath.Click += new System.EventHandler(this.buttonXSelectExcelPath_Click);
+            // 
+            // collapsibleSplitContainer9
+            // 
+            this.collapsibleSplitContainer9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.collapsibleSplitContainer9.Location = new System.Drawing.Point(0, 0);
+            this.collapsibleSplitContainer9.Name = "collapsibleSplitContainer9";
+            // 
+            // collapsibleSplitContainer9.Panel1
+            // 
+            this.collapsibleSplitContainer9.Panel1.Controls.Add(this.collapsibleSplitContainer10);
+            // 
+            // collapsibleSplitContainer9.Panel2
+            // 
+            this.collapsibleSplitContainer9.Panel2.Controls.Add(this.collapsibleSplitContainer11);
+            this.collapsibleSplitContainer9.Size = new System.Drawing.Size(896, 343);
+            this.collapsibleSplitContainer9.SplitterDistance = 329;
+            this.collapsibleSplitContainer9.SplitterWidth = 20;
+            this.collapsibleSplitContainer9.TabIndex = 0;
+            // 
+            // collapsibleSplitContainer10
+            // 
+            this.collapsibleSplitContainer10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.collapsibleSplitContainer10.Location = new System.Drawing.Point(0, 0);
+            this.collapsibleSplitContainer10.Name = "collapsibleSplitContainer10";
+            this.collapsibleSplitContainer10.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // collapsibleSplitContainer10.Panel1
+            // 
+            this.collapsibleSplitContainer10.Panel1.Controls.Add(this.listBoxAdvListExcelFile);
+            // 
+            // collapsibleSplitContainer10.Panel2
+            // 
+            this.collapsibleSplitContainer10.Panel2.Controls.Add(this.listBoxAdvExcelSheets);
+            this.collapsibleSplitContainer10.Size = new System.Drawing.Size(329, 343);
+            this.collapsibleSplitContainer10.SplitterDistance = 134;
+            this.collapsibleSplitContainer10.SplitterWidth = 20;
+            this.collapsibleSplitContainer10.TabIndex = 0;
+            // 
+            // listBoxAdvListExcelFile
+            // 
+            this.listBoxAdvListExcelFile.AutoScroll = true;
+            // 
+            // 
+            // 
+            this.listBoxAdvListExcelFile.BackgroundStyle.Class = "ListBoxAdv";
+            this.listBoxAdvListExcelFile.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.listBoxAdvListExcelFile.CheckStateMember = null;
+            this.listBoxAdvListExcelFile.ContainerControlProcessDialogKey = true;
+            this.listBoxAdvListExcelFile.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listBoxAdvListExcelFile.DragDropSupport = true;
+            this.listBoxAdvListExcelFile.Location = new System.Drawing.Point(0, 0);
+            this.listBoxAdvListExcelFile.Name = "listBoxAdvListExcelFile";
+            this.listBoxAdvListExcelFile.Size = new System.Drawing.Size(329, 134);
+            this.listBoxAdvListExcelFile.TabIndex = 0;
+            this.listBoxAdvListExcelFile.Text = "listBoxAdv4";
+            this.listBoxAdvListExcelFile.ItemClick += new System.EventHandler(this.listBoxAdvListExcelFile_ItemClick);
+            // 
+            // listBoxAdvExcelSheets
+            // 
+            this.listBoxAdvExcelSheets.AutoScroll = true;
+            // 
+            // 
+            // 
+            this.listBoxAdvExcelSheets.BackgroundStyle.Class = "ListBoxAdv";
+            this.listBoxAdvExcelSheets.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.listBoxAdvExcelSheets.CheckStateMember = null;
+            this.listBoxAdvExcelSheets.ContainerControlProcessDialogKey = true;
+            this.listBoxAdvExcelSheets.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listBoxAdvExcelSheets.DragDropSupport = true;
+            this.listBoxAdvExcelSheets.Location = new System.Drawing.Point(0, 0);
+            this.listBoxAdvExcelSheets.Name = "listBoxAdvExcelSheets";
+            this.listBoxAdvExcelSheets.Size = new System.Drawing.Size(329, 189);
+            this.listBoxAdvExcelSheets.TabIndex = 1;
+            this.listBoxAdvExcelSheets.Text = "listBoxAdv5";
+            this.listBoxAdvExcelSheets.ItemDoubleClick += new System.Windows.Forms.MouseEventHandler(this.listBoxAdvExcelSheets_MouseClick);
+            // 
+            // collapsibleSplitContainer11
+            // 
+            this.collapsibleSplitContainer11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.collapsibleSplitContainer11.Location = new System.Drawing.Point(0, 0);
+            this.collapsibleSplitContainer11.Name = "collapsibleSplitContainer11";
+            this.collapsibleSplitContainer11.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // collapsibleSplitContainer11.Panel1
+            // 
+            this.collapsibleSplitContainer11.Panel1.Controls.Add(this.listBoxAdv6);
+            // 
+            // collapsibleSplitContainer11.Panel2
+            // 
+            this.collapsibleSplitContainer11.Panel2.Controls.Add(this.dataGridViewXExcelSheet);
+            this.collapsibleSplitContainer11.Size = new System.Drawing.Size(547, 343);
+            this.collapsibleSplitContainer11.SplitterDistance = 134;
+            this.collapsibleSplitContainer11.SplitterWidth = 20;
+            this.collapsibleSplitContainer11.TabIndex = 0;
+            // 
+            // listBoxAdv6
+            // 
+            this.listBoxAdv6.AutoScroll = true;
+            // 
+            // 
+            // 
+            this.listBoxAdv6.BackgroundStyle.Class = "ListBoxAdv";
+            this.listBoxAdv6.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.listBoxAdv6.CheckStateMember = null;
+            this.listBoxAdv6.ContainerControlProcessDialogKey = true;
+            this.listBoxAdv6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listBoxAdv6.DragDropSupport = true;
+            this.listBoxAdv6.Location = new System.Drawing.Point(0, 0);
+            this.listBoxAdv6.Name = "listBoxAdv6";
+            this.listBoxAdv6.Size = new System.Drawing.Size(547, 134);
+            this.listBoxAdv6.TabIndex = 1;
+            this.listBoxAdv6.Text = "listBoxAdv6";
+            // 
+            // dataGridViewXExcelSheet
+            // 
+            this.dataGridViewXExcelSheet.BackgroundColor = System.Drawing.Color.White;
+            this.dataGridViewXExcelSheet.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewXExcelSheet.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dataGridViewXExcelSheet.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewXExcelSheet.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridViewXExcelSheet.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridViewXExcelSheet.EnableHeadersVisualStyles = false;
+            this.dataGridViewXExcelSheet.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
+            this.dataGridViewXExcelSheet.Location = new System.Drawing.Point(0, 0);
+            this.dataGridViewXExcelSheet.Name = "dataGridViewXExcelSheet";
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewXExcelSheet.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.dataGridViewXExcelSheet.RowTemplate.Height = 23;
+            this.dataGridViewXExcelSheet.Size = new System.Drawing.Size(547, 189);
+            this.dataGridViewXExcelSheet.TabIndex = 0;
+            // 
+            // superTabItem5
+            // 
+            this.superTabItem5.AttachedControl = this.superTabControlPanel13;
+            this.superTabItem5.GlobalItem = false;
+            this.superTabItem5.Name = "superTabItem5";
+            this.superTabItem5.Text = "查询存在数据";
             // 
             // superTabItemApp
             // 
@@ -314,108 +585,6 @@
             this.superTabItemApp.GlobalItem = false;
             this.superTabItemApp.Name = "superTabItemApp";
             this.superTabItemApp.Text = "数据应用";
-            // 
-            // superTabControlPanel3
-            // 
-            this.superTabControlPanel3.Controls.Add(this.buttonX9);
-            this.superTabControlPanel3.Controls.Add(this.textBoxX2);
-            this.superTabControlPanel3.Controls.Add(this.btmGetID);
-            this.superTabControlPanel3.Controls.Add(this.btnClear);
-            this.superTabControlPanel3.Controls.Add(this.labelX3);
-            this.superTabControlPanel3.Controls.Add(this.cmbxIMDBName);
-            this.superTabControlPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabControlPanel3.Location = new System.Drawing.Point(0, 0);
-            this.superTabControlPanel3.Name = "superTabControlPanel3";
-            this.superTabControlPanel3.Size = new System.Drawing.Size(896, 518);
-            this.superTabControlPanel3.TabIndex = 0;
-            this.superTabControlPanel3.TabItem = this.MoveDatasuperTabItem;
-            this.superTabControlPanel3.Visible = false;
-            // 
-            // buttonX9
-            // 
-            this.buttonX9.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX9.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX9.Location = new System.Drawing.Point(578, 37);
-            this.buttonX9.Name = "buttonX9";
-            this.buttonX9.Size = new System.Drawing.Size(108, 23);
-            this.buttonX9.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX9.TabIndex = 51;
-            this.buttonX9.Text = "获取数据表";
-            this.buttonX9.Click += new System.EventHandler(this.buttonX9_Click);
-            // 
-            // textBoxX2
-            // 
-            this.textBoxX2.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.textBoxX2.Border.Class = "TextBoxBorder";
-            this.textBoxX2.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.textBoxX2.DisabledBackColor = System.Drawing.Color.White;
-            this.textBoxX2.ForeColor = System.Drawing.Color.Black;
-            this.textBoxX2.Location = new System.Drawing.Point(79, 124);
-            this.textBoxX2.Multiline = true;
-            this.textBoxX2.Name = "textBoxX2";
-            this.textBoxX2.PreventEnterBeep = true;
-            this.textBoxX2.Size = new System.Drawing.Size(475, 336);
-            this.textBoxX2.TabIndex = 39;
-            // 
-            // btmGetID
-            // 
-            this.btmGetID.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btmGetID.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btmGetID.Location = new System.Drawing.Point(645, 124);
-            this.btmGetID.Name = "btmGetID";
-            this.btmGetID.Size = new System.Drawing.Size(138, 54);
-            this.btmGetID.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btmGetID.TabIndex = 37;
-            this.btmGetID.Text = "迁入数据";
-            this.btmGetID.Click += new System.EventHandler(this.btmGetID_Click);
-            // 
-            // btnClear
-            // 
-            this.btnClear.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnClear.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnClear.Location = new System.Drawing.Point(646, 383);
-            this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(137, 54);
-            this.btnClear.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnClear.TabIndex = 38;
-            this.btnClear.Text = "清空选择";
-            // 
-            // labelX3
-            // 
-            this.labelX3.AutoSize = true;
-            this.labelX3.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // 
-            // 
-            this.labelX3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX3.Location = new System.Drawing.Point(49, 37);
-            this.labelX3.Name = "labelX3";
-            this.labelX3.Size = new System.Drawing.Size(142, 18);
-            this.labelX3.TabIndex = 36;
-            this.labelX3.Text = "请选择转入数据的数据表";
-            // 
-            // cmbxIMDBName
-            // 
-            this.cmbxIMDBName.DisplayMember = "Text";
-            this.cmbxIMDBName.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cmbxIMDBName.ForeColor = System.Drawing.Color.Black;
-            this.cmbxIMDBName.FormattingEnabled = true;
-            this.cmbxIMDBName.ItemHeight = 15;
-            this.cmbxIMDBName.Location = new System.Drawing.Point(211, 37);
-            this.cmbxIMDBName.Name = "cmbxIMDBName";
-            this.cmbxIMDBName.Size = new System.Drawing.Size(346, 21);
-            this.cmbxIMDBName.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.cmbxIMDBName.TabIndex = 35;
-            // 
-            // MoveDatasuperTabItem
-            // 
-            this.MoveDatasuperTabItem.AttachedControl = this.superTabControlPanel3;
-            this.MoveDatasuperTabItem.GlobalItem = false;
-            this.MoveDatasuperTabItem.Name = "MoveDatasuperTabItem";
-            this.MoveDatasuperTabItem.Text = "数据库转移";
             // 
             // superTabControlPanel4
             // 
@@ -788,6 +957,108 @@
             this.ConfigsuperTabItem.GlobalItem = false;
             this.ConfigsuperTabItem.Name = "ConfigsuperTabItem";
             this.ConfigsuperTabItem.Text = "选择数据库";
+            // 
+            // superTabControlPanel3
+            // 
+            this.superTabControlPanel3.Controls.Add(this.buttonX9);
+            this.superTabControlPanel3.Controls.Add(this.textBoxX2);
+            this.superTabControlPanel3.Controls.Add(this.btmGetID);
+            this.superTabControlPanel3.Controls.Add(this.btnClear);
+            this.superTabControlPanel3.Controls.Add(this.labelX3);
+            this.superTabControlPanel3.Controls.Add(this.cmbxIMDBName);
+            this.superTabControlPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel3.Location = new System.Drawing.Point(0, 0);
+            this.superTabControlPanel3.Name = "superTabControlPanel3";
+            this.superTabControlPanel3.Size = new System.Drawing.Size(896, 518);
+            this.superTabControlPanel3.TabIndex = 0;
+            this.superTabControlPanel3.TabItem = this.MoveDatasuperTabItem;
+            this.superTabControlPanel3.Visible = false;
+            // 
+            // buttonX9
+            // 
+            this.buttonX9.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX9.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX9.Location = new System.Drawing.Point(578, 37);
+            this.buttonX9.Name = "buttonX9";
+            this.buttonX9.Size = new System.Drawing.Size(108, 23);
+            this.buttonX9.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX9.TabIndex = 51;
+            this.buttonX9.Text = "获取数据表";
+            this.buttonX9.Click += new System.EventHandler(this.buttonX9_Click);
+            // 
+            // textBoxX2
+            // 
+            this.textBoxX2.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.textBoxX2.Border.Class = "TextBoxBorder";
+            this.textBoxX2.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.textBoxX2.DisabledBackColor = System.Drawing.Color.White;
+            this.textBoxX2.ForeColor = System.Drawing.Color.Black;
+            this.textBoxX2.Location = new System.Drawing.Point(79, 124);
+            this.textBoxX2.Multiline = true;
+            this.textBoxX2.Name = "textBoxX2";
+            this.textBoxX2.PreventEnterBeep = true;
+            this.textBoxX2.Size = new System.Drawing.Size(475, 336);
+            this.textBoxX2.TabIndex = 39;
+            // 
+            // btmGetID
+            // 
+            this.btmGetID.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btmGetID.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btmGetID.Location = new System.Drawing.Point(645, 124);
+            this.btmGetID.Name = "btmGetID";
+            this.btmGetID.Size = new System.Drawing.Size(138, 54);
+            this.btmGetID.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btmGetID.TabIndex = 37;
+            this.btmGetID.Text = "迁入数据";
+            this.btmGetID.Click += new System.EventHandler(this.btmGetID_Click);
+            // 
+            // btnClear
+            // 
+            this.btnClear.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnClear.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnClear.Location = new System.Drawing.Point(646, 383);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(137, 54);
+            this.btnClear.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnClear.TabIndex = 38;
+            this.btnClear.Text = "清空选择";
+            // 
+            // labelX3
+            // 
+            this.labelX3.AutoSize = true;
+            this.labelX3.BackColor = System.Drawing.Color.Transparent;
+            // 
+            // 
+            // 
+            this.labelX3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX3.Location = new System.Drawing.Point(49, 37);
+            this.labelX3.Name = "labelX3";
+            this.labelX3.Size = new System.Drawing.Size(142, 18);
+            this.labelX3.TabIndex = 36;
+            this.labelX3.Text = "请选择转入数据的数据表";
+            // 
+            // cmbxIMDBName
+            // 
+            this.cmbxIMDBName.DisplayMember = "Text";
+            this.cmbxIMDBName.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cmbxIMDBName.ForeColor = System.Drawing.Color.Black;
+            this.cmbxIMDBName.FormattingEnabled = true;
+            this.cmbxIMDBName.ItemHeight = 15;
+            this.cmbxIMDBName.Location = new System.Drawing.Point(211, 37);
+            this.cmbxIMDBName.Name = "cmbxIMDBName";
+            this.cmbxIMDBName.Size = new System.Drawing.Size(346, 21);
+            this.cmbxIMDBName.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.cmbxIMDBName.TabIndex = 35;
+            // 
+            // MoveDatasuperTabItem
+            // 
+            this.MoveDatasuperTabItem.AttachedControl = this.superTabControlPanel3;
+            this.MoveDatasuperTabItem.GlobalItem = false;
+            this.MoveDatasuperTabItem.Name = "MoveDatasuperTabItem";
+            this.MoveDatasuperTabItem.Text = "数据库转移";
             // 
             // superTabControlPanel1
             // 
@@ -1205,6 +1476,7 @@
             // 
             this.listBoxAdv1.BackgroundStyle.Class = "ListBoxAdv";
             this.listBoxAdv1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.listBoxAdv1.CheckStateMember = null;
             this.listBoxAdv1.ContainerControlProcessDialogKey = true;
             this.listBoxAdv1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listBoxAdv1.DragDropSupport = true;
@@ -1223,6 +1495,7 @@
             // 
             this.listBoxAdv3.BackgroundStyle.Class = "ListBoxAdv";
             this.listBoxAdv3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.listBoxAdv3.CheckStateMember = null;
             this.listBoxAdv3.ContainerControlProcessDialogKey = true;
             this.listBoxAdv3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listBoxAdv3.DragDropSupport = true;
@@ -1260,6 +1533,7 @@
             // 
             this.listBoxAdv2.BackgroundStyle.Class = "ListBoxAdv";
             this.listBoxAdv2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.listBoxAdv2.CheckStateMember = null;
             this.listBoxAdv2.ContainerControlProcessDialogKey = true;
             this.listBoxAdv2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listBoxAdv2.DragDropSupport = true;
@@ -1273,36 +1547,36 @@
             // 
             this.dataGridViewX1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridViewX1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle24.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle24.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle24.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewX1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle24;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewX1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridViewX1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle25.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle25.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle25.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle25.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle25.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle25.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewX1.DefaultCellStyle = dataGridViewCellStyle25;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewX1.DefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridViewX1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridViewX1.EnableHeadersVisualStyles = false;
             this.dataGridViewX1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
             this.dataGridViewX1.Location = new System.Drawing.Point(0, 0);
             this.dataGridViewX1.Name = "dataGridViewX1";
-            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle26.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle26.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle26.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewX1.RowHeadersDefaultCellStyle = dataGridViewCellStyle26;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewX1.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dataGridViewX1.RowTemplate.Height = 23;
             this.dataGridViewX1.Size = new System.Drawing.Size(545, 171);
             this.dataGridViewX1.TabIndex = 0;
@@ -1487,7 +1761,6 @@
             // 
             this.listBoxAdvCsvFile.BackgroundStyle.Class = "ListBoxAdv";
             this.listBoxAdvCsvFile.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.listBoxAdvCsvFile.CheckStateMember = null;
             this.listBoxAdvCsvFile.ContainerControlProcessDialogKey = true;
             this.listBoxAdvCsvFile.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listBoxAdvCsvFile.DragDropSupport = true;
@@ -1506,7 +1779,6 @@
             // 
             this.listBoxAdv7.BackgroundStyle.Class = "ListBoxAdv";
             this.listBoxAdv7.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.listBoxAdv7.CheckStateMember = null;
             this.listBoxAdv7.ContainerControlProcessDialogKey = true;
             this.listBoxAdv7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listBoxAdv7.DragDropSupport = true;
@@ -1543,7 +1815,6 @@
             // 
             this.listBoxAdvFields.BackgroundStyle.Class = "ListBoxAdv";
             this.listBoxAdvFields.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.listBoxAdvFields.CheckStateMember = null;
             this.listBoxAdvFields.ContainerControlProcessDialogKey = true;
             this.listBoxAdvFields.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listBoxAdvFields.DragDropSupport = true;
@@ -1557,36 +1828,36 @@
             // 
             this.dataGridViewXCsv.BackgroundColor = System.Drawing.Color.White;
             this.dataGridViewXCsv.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle27.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle27.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle27.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewXCsv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle27;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewXCsv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.dataGridViewXCsv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle28.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle28.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle28.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle28.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle28.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle28.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewXCsv.DefaultCellStyle = dataGridViewCellStyle28;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewXCsv.DefaultCellStyle = dataGridViewCellStyle8;
             this.dataGridViewXCsv.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridViewXCsv.EnableHeadersVisualStyles = false;
             this.dataGridViewXCsv.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
             this.dataGridViewXCsv.Location = new System.Drawing.Point(0, 0);
             this.dataGridViewXCsv.Name = "dataGridViewXCsv";
-            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle29.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle29.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle29.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle29.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle29.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle29.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewXCsv.RowHeadersDefaultCellStyle = dataGridViewCellStyle29;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewXCsv.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.dataGridViewXCsv.RowTemplate.Height = 23;
             this.dataGridViewXCsv.Size = new System.Drawing.Size(547, 170);
             this.dataGridViewXCsv.TabIndex = 0;
@@ -1793,14 +2064,14 @@
             // dataGridViewX2
             // 
             this.dataGridViewX2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle30.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle30.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle30.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle30.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle30.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle30.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewX2.DefaultCellStyle = dataGridViewCellStyle30;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewX2.DefaultCellStyle = dataGridViewCellStyle10;
             this.dataGridViewX2.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
             this.dataGridViewX2.Location = new System.Drawing.Point(122, 164);
             this.dataGridViewX2.Name = "dataGridViewX2";
@@ -1896,285 +2167,17 @@
             this.ExpsuperTabItem.Name = "ExpsuperTabItem";
             this.ExpsuperTabItem.Text = "导出数据";
             // 
+            // superTabItem4
+            // 
+            this.superTabItem4.GlobalItem = false;
+            this.superTabItem4.Name = "superTabItem4";
+            this.superTabItem4.Text = "Excel数据导入";
+            // 
             // ExcelsuperTabItem
             // 
             this.ExcelsuperTabItem.GlobalItem = false;
             this.ExcelsuperTabItem.Name = "ExcelsuperTabItem";
             this.ExcelsuperTabItem.Text = "superTabItem6";
-            // 
-            // superTabControl4
-            // 
-            this.superTabControl4.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            this.superTabControl4.ControlBox.CloseBox.Name = "";
-            // 
-            // 
-            // 
-            this.superTabControl4.ControlBox.MenuBox.Name = "";
-            this.superTabControl4.ControlBox.Name = "";
-            this.superTabControl4.ControlBox.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.superTabControl4.ControlBox.MenuBox,
-            this.superTabControl4.ControlBox.CloseBox});
-            this.superTabControl4.Controls.Add(this.superTabControlPanel13);
-            this.superTabControl4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabControl4.ForeColor = System.Drawing.Color.Black;
-            this.superTabControl4.Location = new System.Drawing.Point(0, 0);
-            this.superTabControl4.Name = "superTabControl4";
-            this.superTabControl4.ReorderTabsEnabled = true;
-            this.superTabControl4.SelectedTabFont = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold);
-            this.superTabControl4.SelectedTabIndex = 0;
-            this.superTabControl4.Size = new System.Drawing.Size(896, 518);
-            this.superTabControl4.TabFont = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.superTabControl4.TabIndex = 3;
-            this.superTabControl4.Tabs.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.superTabItem5});
-            this.superTabControl4.Text = "superTabControl4";
-            // 
-            // superTabControlPanel13
-            // 
-            this.superTabControlPanel13.Controls.Add(this.collapsibleSplitContainer8);
-            this.superTabControlPanel13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabControlPanel13.Location = new System.Drawing.Point(0, 28);
-            this.superTabControlPanel13.Name = "superTabControlPanel13";
-            this.superTabControlPanel13.Size = new System.Drawing.Size(896, 490);
-            this.superTabControlPanel13.TabIndex = 1;
-            this.superTabControlPanel13.TabItem = this.superTabItem5;
-            // 
-            // collapsibleSplitContainer8
-            // 
-            this.collapsibleSplitContainer8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.collapsibleSplitContainer8.Location = new System.Drawing.Point(0, 0);
-            this.collapsibleSplitContainer8.Name = "collapsibleSplitContainer8";
-            this.collapsibleSplitContainer8.Orientation = System.Windows.Forms.Orientation.Horizontal;
-            // 
-            // collapsibleSplitContainer8.Panel1
-            // 
-            this.collapsibleSplitContainer8.Panel1.BackColor = System.Drawing.Color.Transparent;
-            this.collapsibleSplitContainer8.Panel1.Controls.Add(this.buttonXQueryData);
-            this.collapsibleSplitContainer8.Panel1.Controls.Add(this.labelX21);
-            this.collapsibleSplitContainer8.Panel1.Controls.Add(this.textBoxXExcelPath);
-            this.collapsibleSplitContainer8.Panel1.Controls.Add(this.buttonXSelectExcelPath);
-            // 
-            // collapsibleSplitContainer8.Panel2
-            // 
-            this.collapsibleSplitContainer8.Panel2.Controls.Add(this.collapsibleSplitContainer9);
-            this.collapsibleSplitContainer8.Size = new System.Drawing.Size(896, 490);
-            this.collapsibleSplitContainer8.SplitterDistance = 127;
-            this.collapsibleSplitContainer8.SplitterWidth = 20;
-            this.collapsibleSplitContainer8.TabIndex = 1;
-            // 
-            // labelX21
-            // 
-            this.labelX21.AutoSize = true;
-            // 
-            // 
-            // 
-            this.labelX21.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX21.Location = new System.Drawing.Point(22, 20);
-            this.labelX21.Name = "labelX21";
-            this.labelX21.Size = new System.Drawing.Size(155, 18);
-            this.labelX21.TabIndex = 5;
-            this.labelX21.Text = "选择导入数据文件的文件夹";
-            // 
-            // textBoxXExcelPath
-            // 
-            this.textBoxXExcelPath.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.textBoxXExcelPath.Border.Class = "TextBoxBorder";
-            this.textBoxXExcelPath.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.textBoxXExcelPath.DisabledBackColor = System.Drawing.Color.White;
-            this.textBoxXExcelPath.ForeColor = System.Drawing.Color.Black;
-            this.textBoxXExcelPath.Location = new System.Drawing.Point(22, 47);
-            this.textBoxXExcelPath.Name = "textBoxXExcelPath";
-            this.textBoxXExcelPath.PreventEnterBeep = true;
-            this.textBoxXExcelPath.Size = new System.Drawing.Size(300, 21);
-            this.textBoxXExcelPath.TabIndex = 4;
-            // 
-            // buttonXSelectExcelPath
-            // 
-            this.buttonXSelectExcelPath.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonXSelectExcelPath.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonXSelectExcelPath.Location = new System.Drawing.Point(356, 47);
-            this.buttonXSelectExcelPath.Name = "buttonXSelectExcelPath";
-            this.buttonXSelectExcelPath.Size = new System.Drawing.Size(109, 23);
-            this.buttonXSelectExcelPath.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonXSelectExcelPath.TabIndex = 3;
-            this.buttonXSelectExcelPath.Text = "浏览文件夹";
-            this.buttonXSelectExcelPath.Click += new System.EventHandler(this.buttonXSelectExcelPath_Click);
-            // 
-            // collapsibleSplitContainer9
-            // 
-            this.collapsibleSplitContainer9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.collapsibleSplitContainer9.Location = new System.Drawing.Point(0, 0);
-            this.collapsibleSplitContainer9.Name = "collapsibleSplitContainer9";
-            // 
-            // collapsibleSplitContainer9.Panel1
-            // 
-            this.collapsibleSplitContainer9.Panel1.Controls.Add(this.collapsibleSplitContainer10);
-            // 
-            // collapsibleSplitContainer9.Panel2
-            // 
-            this.collapsibleSplitContainer9.Panel2.Controls.Add(this.collapsibleSplitContainer11);
-            this.collapsibleSplitContainer9.Size = new System.Drawing.Size(896, 343);
-            this.collapsibleSplitContainer9.SplitterDistance = 329;
-            this.collapsibleSplitContainer9.SplitterWidth = 20;
-            this.collapsibleSplitContainer9.TabIndex = 0;
-            // 
-            // collapsibleSplitContainer10
-            // 
-            this.collapsibleSplitContainer10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.collapsibleSplitContainer10.Location = new System.Drawing.Point(0, 0);
-            this.collapsibleSplitContainer10.Name = "collapsibleSplitContainer10";
-            this.collapsibleSplitContainer10.Orientation = System.Windows.Forms.Orientation.Horizontal;
-            // 
-            // collapsibleSplitContainer10.Panel1
-            // 
-            this.collapsibleSplitContainer10.Panel1.Controls.Add(this.listBoxAdvListExcelFile);
-            // 
-            // collapsibleSplitContainer10.Panel2
-            // 
-            this.collapsibleSplitContainer10.Panel2.Controls.Add(this.listBoxAdvExcelSheets);
-            this.collapsibleSplitContainer10.Size = new System.Drawing.Size(329, 343);
-            this.collapsibleSplitContainer10.SplitterDistance = 134;
-            this.collapsibleSplitContainer10.SplitterWidth = 20;
-            this.collapsibleSplitContainer10.TabIndex = 0;
-            // 
-            // listBoxAdvListExcelFile
-            // 
-            this.listBoxAdvListExcelFile.AutoScroll = true;
-            // 
-            // 
-            // 
-            this.listBoxAdvListExcelFile.BackgroundStyle.Class = "ListBoxAdv";
-            this.listBoxAdvListExcelFile.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.listBoxAdvListExcelFile.ContainerControlProcessDialogKey = true;
-            this.listBoxAdvListExcelFile.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listBoxAdvListExcelFile.DragDropSupport = true;
-            this.listBoxAdvListExcelFile.Location = new System.Drawing.Point(0, 0);
-            this.listBoxAdvListExcelFile.Name = "listBoxAdvListExcelFile";
-            this.listBoxAdvListExcelFile.Size = new System.Drawing.Size(329, 134);
-            this.listBoxAdvListExcelFile.TabIndex = 0;
-            this.listBoxAdvListExcelFile.Text = "listBoxAdv4";
-            this.listBoxAdvListExcelFile.ItemClick += new System.EventHandler(this.listBoxAdvListExcelFile_ItemClick);
-            // 
-            // listBoxAdvExcelSheets
-            // 
-            this.listBoxAdvExcelSheets.AutoScroll = true;
-            // 
-            // 
-            // 
-            this.listBoxAdvExcelSheets.BackgroundStyle.Class = "ListBoxAdv";
-            this.listBoxAdvExcelSheets.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.listBoxAdvExcelSheets.ContainerControlProcessDialogKey = true;
-            this.listBoxAdvExcelSheets.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listBoxAdvExcelSheets.DragDropSupport = true;
-            this.listBoxAdvExcelSheets.Location = new System.Drawing.Point(0, 0);
-            this.listBoxAdvExcelSheets.Name = "listBoxAdvExcelSheets";
-            this.listBoxAdvExcelSheets.Size = new System.Drawing.Size(329, 189);
-            this.listBoxAdvExcelSheets.TabIndex = 1;
-            this.listBoxAdvExcelSheets.Text = "listBoxAdv5";
-            this.listBoxAdvExcelSheets.ItemDoubleClick += new System.Windows.Forms.MouseEventHandler(this.listBoxAdvExcelSheets_MouseClick);
-            // 
-            // collapsibleSplitContainer11
-            // 
-            this.collapsibleSplitContainer11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.collapsibleSplitContainer11.Location = new System.Drawing.Point(0, 0);
-            this.collapsibleSplitContainer11.Name = "collapsibleSplitContainer11";
-            this.collapsibleSplitContainer11.Orientation = System.Windows.Forms.Orientation.Horizontal;
-            // 
-            // collapsibleSplitContainer11.Panel1
-            // 
-            this.collapsibleSplitContainer11.Panel1.Controls.Add(this.listBoxAdv6);
-            // 
-            // collapsibleSplitContainer11.Panel2
-            // 
-            this.collapsibleSplitContainer11.Panel2.Controls.Add(this.dataGridViewXExcelSheet);
-            this.collapsibleSplitContainer11.Size = new System.Drawing.Size(547, 343);
-            this.collapsibleSplitContainer11.SplitterDistance = 134;
-            this.collapsibleSplitContainer11.SplitterWidth = 20;
-            this.collapsibleSplitContainer11.TabIndex = 0;
-            // 
-            // listBoxAdv6
-            // 
-            this.listBoxAdv6.AutoScroll = true;
-            // 
-            // 
-            // 
-            this.listBoxAdv6.BackgroundStyle.Class = "ListBoxAdv";
-            this.listBoxAdv6.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.listBoxAdv6.ContainerControlProcessDialogKey = true;
-            this.listBoxAdv6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listBoxAdv6.DragDropSupport = true;
-            this.listBoxAdv6.Location = new System.Drawing.Point(0, 0);
-            this.listBoxAdv6.Name = "listBoxAdv6";
-            this.listBoxAdv6.Size = new System.Drawing.Size(547, 134);
-            this.listBoxAdv6.TabIndex = 1;
-            this.listBoxAdv6.Text = "listBoxAdv6";
-            // 
-            // dataGridViewXExcelSheet
-            // 
-            this.dataGridViewXExcelSheet.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridViewXExcelSheet.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle21.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle21.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle21.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle21.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle21.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewXExcelSheet.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle21;
-            this.dataGridViewXExcelSheet.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle22.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle22.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle22.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewXExcelSheet.DefaultCellStyle = dataGridViewCellStyle22;
-            this.dataGridViewXExcelSheet.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridViewXExcelSheet.EnableHeadersVisualStyles = false;
-            this.dataGridViewXExcelSheet.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.dataGridViewXExcelSheet.Location = new System.Drawing.Point(0, 0);
-            this.dataGridViewXExcelSheet.Name = "dataGridViewXExcelSheet";
-            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle23.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle23.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle23.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewXExcelSheet.RowHeadersDefaultCellStyle = dataGridViewCellStyle23;
-            this.dataGridViewXExcelSheet.RowTemplate.Height = 23;
-            this.dataGridViewXExcelSheet.Size = new System.Drawing.Size(547, 189);
-            this.dataGridViewXExcelSheet.TabIndex = 0;
-            // 
-            // superTabItem5
-            // 
-            this.superTabItem5.AttachedControl = this.superTabControlPanel13;
-            this.superTabItem5.GlobalItem = false;
-            this.superTabItem5.Name = "superTabItem5";
-            this.superTabItem5.Text = "查询存在数据";
-            // 
-            // buttonXQueryData
-            // 
-            this.buttonXQueryData.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonXQueryData.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonXQueryData.Enabled = false;
-            this.buttonXQueryData.Location = new System.Drawing.Point(621, 47);
-            this.buttonXQueryData.Name = "buttonXQueryData";
-            this.buttonXQueryData.Size = new System.Drawing.Size(109, 23);
-            this.buttonXQueryData.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonXQueryData.TabIndex = 6;
-            this.buttonXQueryData.Text = "查询数据存在";
-            this.buttonXQueryData.Click += new System.EventHandler(this.buttonXQueryData_Click);
             // 
             // MainForm
             // 
@@ -2190,8 +2193,27 @@
             ((System.ComponentModel.ISupportInitialize)(this.superTabControl1)).EndInit();
             this.superTabControl1.ResumeLayout(false);
             this.superTabControlPanel11.ResumeLayout(false);
-            this.superTabControlPanel3.ResumeLayout(false);
-            this.superTabControlPanel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.superTabControl4)).EndInit();
+            this.superTabControl4.ResumeLayout(false);
+            this.superTabControlPanel13.ResumeLayout(false);
+            this.collapsibleSplitContainer8.Panel1.ResumeLayout(false);
+            this.collapsibleSplitContainer8.Panel1.PerformLayout();
+            this.collapsibleSplitContainer8.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.collapsibleSplitContainer8)).EndInit();
+            this.collapsibleSplitContainer8.ResumeLayout(false);
+            this.collapsibleSplitContainer9.Panel1.ResumeLayout(false);
+            this.collapsibleSplitContainer9.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.collapsibleSplitContainer9)).EndInit();
+            this.collapsibleSplitContainer9.ResumeLayout(false);
+            this.collapsibleSplitContainer10.Panel1.ResumeLayout(false);
+            this.collapsibleSplitContainer10.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.collapsibleSplitContainer10)).EndInit();
+            this.collapsibleSplitContainer10.ResumeLayout(false);
+            this.collapsibleSplitContainer11.Panel1.ResumeLayout(false);
+            this.collapsibleSplitContainer11.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.collapsibleSplitContainer11)).EndInit();
+            this.collapsibleSplitContainer11.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewXExcelSheet)).EndInit();
             this.superTabControlPanel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.superTabControl3)).EndInit();
             this.superTabControl3.ResumeLayout(false);
@@ -2199,6 +2221,8 @@
             this.superTabControlPanel10.PerformLayout();
             this.superTabControlPanel9.ResumeLayout(false);
             this.superTabControlPanel9.PerformLayout();
+            this.superTabControlPanel3.ResumeLayout(false);
+            this.superTabControlPanel3.PerformLayout();
             this.superTabControlPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.superTabControl2)).EndInit();
             this.superTabControl2.ResumeLayout(false);
@@ -2246,27 +2270,6 @@
             this.superTabControlPanel2.ResumeLayout(false);
             this.superTabControlPanel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewX2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.superTabControl4)).EndInit();
-            this.superTabControl4.ResumeLayout(false);
-            this.superTabControlPanel13.ResumeLayout(false);
-            this.collapsibleSplitContainer8.Panel1.ResumeLayout(false);
-            this.collapsibleSplitContainer8.Panel1.PerformLayout();
-            this.collapsibleSplitContainer8.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.collapsibleSplitContainer8)).EndInit();
-            this.collapsibleSplitContainer8.ResumeLayout(false);
-            this.collapsibleSplitContainer9.Panel1.ResumeLayout(false);
-            this.collapsibleSplitContainer9.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.collapsibleSplitContainer9)).EndInit();
-            this.collapsibleSplitContainer9.ResumeLayout(false);
-            this.collapsibleSplitContainer10.Panel1.ResumeLayout(false);
-            this.collapsibleSplitContainer10.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.collapsibleSplitContainer10)).EndInit();
-            this.collapsibleSplitContainer10.ResumeLayout(false);
-            this.collapsibleSplitContainer11.Panel1.ResumeLayout(false);
-            this.collapsibleSplitContainer11.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.collapsibleSplitContainer11)).EndInit();
-            this.collapsibleSplitContainer11.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewXExcelSheet)).EndInit();
             this.ResumeLayout(false);
 
         }
