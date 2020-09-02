@@ -17,125 +17,125 @@
 using System;
 namespace Model
 {
-	/// <summary>
-	/// GROUPBYPROPERTY:实体类(属性说明自动提取数据库字段的描述信息)
-	/// </summary>
-	[Serializable]
-	public partial class GROUPBYPROPERTY
-	{
-		public GROUPBYPROPERTY()
-		{}
-		#region Model
-		private decimal _allhouseholds;
-		private decimal _allpopulation;
-		private decimal _poorhouseholds;
-		private decimal _poorpopulation;
-		private decimal _poorlowhouseholds;
-		private decimal _poorlowpopulation;
-		private decimal _insuredhouseholds;
-		private decimal _insuredpopulation;
-		private decimal _fivepoorhouseholds;
-		private decimal _fivepoorpopulation;
-		private decimal _rid;
-		private string _aad105;
-		/// <summary>
-		/// 
-		/// </summary>
-		public decimal ALLHOUSEHOLDS
-		{
-			set{ _allhouseholds=value;}
-			get{return _allhouseholds;}
-		}
-		/// <summary>
-		/// 
-		/// </summary>
-		public decimal ALLPOPULATION
-		{
-			set{ _allpopulation=value;}
-			get{return _allpopulation;}
-		}
-		/// <summary>
-		/// 
-		/// </summary>
-		public decimal POORHOUSEHOLDS
-		{
-			set{ _poorhouseholds=value;}
-			get{return _poorhouseholds;}
-		}
-		/// <summary>
-		/// 
-		/// </summary>
-		public decimal POORPOPULATION
-		{
-			set{ _poorpopulation=value;}
-			get{return _poorpopulation;}
-		}
-		/// <summary>
-		/// 
-		/// </summary>
-		public decimal POORLOWHOUSEHOLDS
-		{
-			set{ _poorlowhouseholds=value;}
-			get{return _poorlowhouseholds;}
-		}
-		/// <summary>
-		/// 
-		/// </summary>
-		public decimal POORLOWPOPULATION
-		{
-			set{ _poorlowpopulation=value;}
-			get{return _poorlowpopulation;}
-		}
-		/// <summary>
-		/// 
-		/// </summary>
-		public decimal INSUREDHOUSEHOLDS
-		{
-			set{ _insuredhouseholds=value;}
-			get{return _insuredhouseholds;}
-		}
-		/// <summary>
-		/// 
-		/// </summary>
-		public decimal INSUREDPOPULATION
-		{
-			set{ _insuredpopulation=value;}
-			get{return _insuredpopulation;}
-		}
-		/// <summary>
-		/// 
-		/// </summary>
-		public decimal FIVEPOORHOUSEHOLDS
-		{
-			set{ _fivepoorhouseholds=value;}
-			get{return _fivepoorhouseholds;}
-		}
-		/// <summary>
-		/// 
-		/// </summary>
-		public decimal FIVEPOORPOPULATION
-		{
-			set{ _fivepoorpopulation=value;}
-			get{return _fivepoorpopulation;}
-		}
-		/// <summary>
-		/// 
-		/// </summary>
-		public decimal RID
-		{
-			set{ _rid=value;}
-			get{return _rid;}
-		}
-		/// <summary>
-		/// 
-		/// </summary>
-		public string AAD105
-		{
-			set{ _aad105=value;}
-			get{return _aad105;}
-		}
-		#endregion Model
+    /// <summary>
+    /// GROUPBYPROPERTY:实体类(属性说明自动提取数据库字段的描述信息)
+    /// </summary>
+    [Serializable]
+    public partial class GROUPBYPROPERTY
+    {
+        public GROUPBYPROPERTY()
+        { }
+        #region Model
+        private decimal _allhouseholds;
+        private decimal _allpopulation;
+        private decimal _poorhouseholds;
+        private decimal _poorpopulation;
+        private decimal _poorlowhouseholds;
+        private decimal _poorlowpopulation;
+        private decimal _insuredhouseholds;
+        private decimal _insuredpopulation;
+        private decimal _fivepoorhouseholds;
+        private decimal _fivepoorpopulation;
+        private decimal _rid;
+        private string _aad105;
+        /// <summary>
+        /// 
+        /// </summary>
+        public decimal ALLHOUSEHOLDS
+        {
+            set { _allhouseholds = value; }
+            get { return _allhouseholds; }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public decimal ALLPOPULATION
+        {
+            set { _allpopulation = value; }
+            get { return _allpopulation; }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public decimal POORHOUSEHOLDS
+        {
+            set { _poorhouseholds = value; }
+            get { return _poorhouseholds; }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public decimal POORPOPULATION
+        {
+            set { _poorpopulation = value; }
+            get { return _poorpopulation; }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public decimal POORLOWHOUSEHOLDS
+        {
+            set { _poorlowhouseholds = value; }
+            get { return _poorlowhouseholds; }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public decimal POORLOWPOPULATION
+        {
+            set { _poorlowpopulation = value; }
+            get { return _poorlowpopulation; }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public decimal INSUREDHOUSEHOLDS
+        {
+            set { _insuredhouseholds = value; }
+            get { return _insuredhouseholds; }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public decimal INSUREDPOPULATION
+        {
+            set { _insuredpopulation = value; }
+            get { return _insuredpopulation; }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public decimal FIVEPOORHOUSEHOLDS
+        {
+            set { _fivepoorhouseholds = value; }
+            get { return _fivepoorhouseholds; }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public decimal FIVEPOORPOPULATION
+        {
+            set { _fivepoorpopulation = value; }
+            get { return _fivepoorpopulation; }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public decimal RID
+        {
+            set { _rid = value; }
+            get { return _rid; }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public string AAD105
+        {
+            set { _aad105 = value; }
+            get { return _aad105; }
+        }
+        #endregion Model
 
-	}
+    }
 }
 
